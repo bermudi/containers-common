@@ -245,10 +245,10 @@ The secret needs to be passed to the build using the --secret flag. The final im
 
   ```
   # Executable form
-  CMD ["executable", "param1", "param2"]`
+  CMD ["executable", "param1", "param2"]
 
   # Provide default arguments to ENTRYPOINT
-  CMD ["param1", "param2"]`
+  CMD ["param1", "param2"]
 
   # the command is run in a shell - /bin/sh -c
   CMD command param1 param2
